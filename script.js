@@ -1,7 +1,5 @@
 // constants
-let todos = JSON.parse(globalThis.localStorage.getItem("todos")) || [
-  { text: "dummy1", completed: false },
-];
+let todos = JSON.parse(globalThis.localStorage.getItem("todos")) || [];
 let newtask = "";
 
 // elements
